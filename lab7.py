@@ -1,6 +1,7 @@
 class Transportation(object):
    """Abstract base class"""
 
+   #version 2
    def __init__( self, start, end, distance ):
       if self.__class__ == Transportation:
          raise NotImplementedError
